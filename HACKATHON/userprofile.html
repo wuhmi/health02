@@ -1,22 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>ST Peter's Hospital</title>
 </head>
+
 <body>
     <h1>ST Peter's: Appointment Scheduling App</h1>
     <nav>
         <ul>
+            <li><a href="homepage.html">Home</a></li>
             <li><a href="signuppage.html">Sign Up</a></li>
             <li><a href="loginpage.html">Login</a></li>
             <li><a href="userprofile.html">User Profile</a></li>
             <li><a href="appointmentsbooking.html">Book Appointments</a></li>
-            <li><a href="contactpage.html">Contact Us</a></li>
+            <li><a href="myappointments.html">My Appointments</a></li>
         </ul>
     </nav>
+    <main>
+        <form>
+            <fieldset>
+                <legend>User Profile</legend>
+
+                <label for="fullname">Full name</label><br>
+                <input type="text" name="Full name" id="fullname">
+                <br />
+                GENDER:
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <br />
+                <label for="age">Age</label>
+                <input type="number" name="Age" id="age">
+                <br />
+                <label for="phonenumber">Phone number</label>
+                <input type="number" name="Phone number" id="phonenumber">
+                <br />
+                <label for="e-mail">Email Address</label>
+                <input type="text" name="E-mail" id="e-mail" placeholder="E.g Monica26@gmail.com">
+                <br />
+                <label for="Address">Address</label><br>
+                <textarea name="address" id="address" cols="40" rows="5"></textarea>
+                <br />
+                <button type="Save">Save</button>
+                <button type="Edit Profile">Edit Profile</button>
+            </fieldset>
+            </fieldset>
+        </form>
+    </main>
     <footer>
-        <p> &copy; 2020 St Peter's Hospital</p>
+        <p> &copy; 2020 Copyright @ ST Peter's Hospital</p>
     </footer>
 </body>
+
 </html>
